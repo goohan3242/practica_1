@@ -1,0 +1,251 @@
+ll
+mkdir repogit
+ll
+cd repogit/
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git 
+ll
+git clone git@github.com:goohan3242/practica_1.git
+ll
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+git clone git@github.com:goohan3242/practica_1.git
+ll
+cd practica_1/
+ll
+cd ../
+./UTN-FRA_SO_Examenes/202509/script_Precondicion.sh 
+source  ~/.bashrc  && history -a
+ll
+ll practica_1/
+cd ../
+ll
+cd $HOME/repogit
+cd ../
+ll
+rm -rf RTA_Examen_20251006/
+ll
+cd repogit/
+ll\
+ll
+cd UTN-FRA_SO_Examenes/
+LL
+ll
+202509/
+cd 202509/
+ll
+./script_Precondicion.sh 
+source  ~/.bashrc  && history -a
+ll
+cd ../
+ll
+practica_1/
+cd practica_1/
+ll
+cd
+ll
+cd repogit/UTN-FRA_SO_Examenes/202509/
+LL
+ll
+vim script_Precondicion.sh 
+cd
+cp -r RTA_Examen_20251006/ repogit/practica_1/
+cd repogit/practica_1/
+ll
+ll RTA_Examen_20251006/
+git add .
+git commmit -m "feat[VM]: Paso las RTA al repo"
+git commit -m "feat[VM]: Paso las RTA al repo"
+git config --global user.email "goohan3242@gmail.com"
+git config --global user.name "goohan3242"
+git commit -m "feat[VM]: Paso las RTA al repo"
+git status
+ll
+cd ../
+tree practica_1/
+apt  install tree  # version 2.0.2-1
+sudo apt  install tree  # version 2.0.2-1
+sudo apt  install tree
+sudo apt install tree
+sudo snap install tree
+tree practica_1/
+mkdir
+mkdir --help
+mkdir -p $HOME/Astronomia/{Cometa/{Cola,Gravedad,Orbita},Planeta/{Gravedad,Orbita}}
+cd
+ll
+tree Astronomia/
+cd repogit/
+cd
+ll snap/
+cd repogit/
+cd practica_1/
+ll
+cd RTA_Examen_20251006/
+ll
+vim Punto_A.sh 
+cat Punto_A.sh 
+cd ../
+git add .
+git commit -m "feat[Punto_A.sh]: Agrego la respuesta"
+git status
+cd
+exit
+sudo fdisk -l
+sudo fdisk -l | grep "8 G"
+sudo fdisk -l | grep "8 G" | awk '{print $2}'
+awk 
+man awk
+sudo fdisk -l | grep "8 G" | awk '{print $2}' | awk -F ':' '{print $1}'
+ll
+cd repogit/
+ll
+cd practica_1/
+ll
+ll RTA_Examen_20251006/
+cd RTA_Examen_20251006/ | vim Punto_B_FormatMontaje.sh
+cd cdcdcd
+cd
+cd 
+Lresert
+reset
+ll
+cd repogit/
+cd practica_1/
+cd RTA_Examen_20251006/
+ll
+vim Punto_B_FormatMontaje.sh 
+sudo fdisk -l | grep "8 G" | awk '{print $2}' | awk -F ':' '{print $1}'
+sudo fdisk /dev/sdc
+sudo fdisk -l
+ll
+vim Punto_B_FormatMontaje.sh
+vim Punto_B_Particiones.sh 
+sudo fdisk /dev/sdc
+vim Punto_B_Particiones.sh 
+sudo fdisk /dev/sdc
+vim Punto_B_Particiones.sh 
+cat Punto_B_Particiones.sh
+sudo fdisk -l sudo fdisk -l | grep "8 G" | awk '{print $2}' | awk -F ':' '{print $1}'
+sudo fdisk -l /dev/sdc
+sudo fdisk -l /dev/sdc | grep '/dev/sdc'
+man grep
+sudo fdisk -l /dev/sdc | grep '/dev/sdc'| grep -viE 'Disk|exten'
+sudo fdisk -l /dev/sdc | grep '/dev/sdc'| grep -viE 'Disk|exten'| awk '{print$1}'
+sudo mkfs
+man mkfs
+sudo mkfs.ext4 /dev/sdc1
+sudo mkfs.ext4 /dev/sdc2
+sudo mkfs.ext4 /dev/sdc5
+sudo mkfs.ext4 /dev/sdc6
+sudo mkfs.ext4 /dev/sdc7
+vim Punto_B_FormatMontaje.sh 
+vim Punto_B_Particiones.sh 
+vim Punto_B_FormatMontaje.sh 
+ll $HOME 
+ll Astronomia/
+ll ~/Astronomia/
+ll ~/Astronomia/Planeta/
+echo "/dev/sdc1 ~/Astronomia/Planeta/Gravedad  ext4  defaults  0 0" | sudo tee -a /etc/fstab
+ll /etc/fstab 
+ls -la /etc/fstab
+ls -la /etc/
+echo "/dev/sdc1 ~/Astronomia/Planeta/Gravedad  ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo mount -a
+echo "/dev/sdc1 ~/Astronomia/Planeta/Gravedad/  ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo mount -a
+echo "/dev/sdc1 /Astronomia/Planeta/Gravedad/  ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo mount -a
+echo "/dev/sdc1 /Astronomia/Planeta/Gravedad ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo mount -a
+sudo df -h 
+cd
+echo "/dev/sdc1 /Astronomia/Planeta/Gravedad ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo mount -a
+sudo df -h 
+echo "/dev/sdc1 /Astronomia/Planeta/Gravedad/ ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo mount -a
+exit
+sudo df -h 
+echo "/dev/sdc2 /Astronomia/Planeta/Orbita ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo mount -a
+exit
+sudo df -h 
+ll Astronomia/
+ll Astronomia/Cometa/
+echo "/dev/sdc5 /Astronomia/Cometa/Cola ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo systemctl daemon-reload
+sudo mount -a
+sudo systemctl daemon-reload
+sudo df -h 
+echo "/dev/sdc6 /Astronomia/Cometa/Gravedad ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo systemctl daemon-reload
+sudo mount -a
+echo "/dev/sdc7 /Astronomia/Cometa/Orbita ext4  defaults  0 0" | sudo tee -a /etc/fstab
+sudo systemctl daemon-reload
+sudo mount -a
+exit
+sudo df -h 
+cd repogit/
+ll
+cd practica_1/
+ll
+cd RTA_Examen_20251006/
+LL
+ll
+vim Punto_B_FormatMontaje.sh 
+sudo grep $(whoami) /etc/shadow
+sudo grep $(whoami) /etc/shadow | awk -F ':' '{print$2}'
+sudo groupadd p1c1_2025_g1 
+sudo groupadd p1c1_2025_gTodos 
+man useradd
+CLAVE = $(sudo grep $(whoami) /etc/shadow | awk -F ':' '{print$2}')
+echo $CLAVE
+CLAVE=$(sudo grep $(whoami) /etc/shadow | awk -F ':' '{print$2}')
+echo $CLAVE
+sudo useradd -m -s /bin/bash -G p1c1_2025_g1 -p "$CLAVE" p1c1_2025_u1
+sudo useradd -m -s /bin/bash -G p1c1_2025_g1 -p "$CLAVE" p1c1_2025_u2
+sudo useradd -m -s /bin/bash -G p1c1_2025_gTodos -p "$CLAVE" p1c1_2025_u3
+sudo grep -E 'vagr|user' /etc/shadow
+sudo grep -E 'vagr|p1c1' /etc/shadow
+ll
+vim Punto_C.sh 
+ll /
+mkdir /Punto_D/{Libros,Musica,videos}/elemento
+cd /
+mkdir /Punto_D/{Libros,Musica,videos}/elemento
+cd '~'/
+ll
+cd
+ll
+cd /
+ll
+mkdir -p /Punto_D/{Libros,Musica,videos}/elemento
+sudo mkdir -p /Punto_D/{Libros,Musica,videos}/elemento
+ll
+ll Astronomia/
+cd
+ll
+cd $HOME
+cd repogit/
+ll
+cd practica_1/
+git status
+git add .
+git status
+git commit -m "feat: Modifico scripts"
+git push
+exit
+history -a
+cd repogit/
+cd practica_1/
+l
+ll
+touch Historial_comandos.txt
+ll
+Historial_comandos_<Tu-Nombre>.txt >> Historial_comandos.txt 
+$HOME/.bash_history >> Historial_comandos.txt 
+sudo $HOME/.bash_history >> Historial_comandos.txt 
+root $HOME/.bash_history >> Historial_comandos.txt
+cp $HOME/.bash_history  $HOME/repogit/practica_1/
+ll
+rm .bash_history 
